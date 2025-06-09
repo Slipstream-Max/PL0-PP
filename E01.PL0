@@ -1,0 +1,9 @@
+PROGRAM EX01;
+VAR A,B,C;
+BEGIN
+  A:=0;
+  READ(B);
+  FOR C:=1 STEP 1 UNTIL 10 DO
+    A:=A+B;
+  WRITE(A);
+END.
